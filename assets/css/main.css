@@ -127,6 +127,7 @@ input, select, textarea {
 	.icon {
 		text-decoration: none;
 		position: relative;
+		color: #ca4d3f;
 	}
 
 		.icon:before {
@@ -561,9 +562,8 @@ input, select, textarea {
 		}
 
 		#header p {
-			font-size: 1.25em;
-			margin: 0.75em 0 0.25em 0;
-			opacity: 0.75;
+			font-size: 1.75em;
+			opacity: 0.85;
 		}
 
 		#header nav {
@@ -684,6 +684,7 @@ input, select, textarea {
 					text-align: center;
 					top: 0;
 					width: 2.5em;
+					background-color: rgba(255, 255, 255, 0.85);
 				}
 
 				#header nav a:hover {
@@ -691,7 +692,7 @@ input, select, textarea {
 				}
 
 					#header nav a:hover:before {
-						background-color: rgba(255, 255, 255, 0.175);
+						background-color: rgba(255, 255, 255, 0.35);
 						color: #fff;
 					}
 
@@ -983,7 +984,7 @@ input, select, textarea {
 		}
 
 		#header p {
-			font-size: 1em;
+			font-size: 1.25em;
 		}
 
 		#header nav {
